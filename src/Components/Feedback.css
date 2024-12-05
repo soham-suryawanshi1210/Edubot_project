@@ -1,0 +1,101 @@
+/* Feedback.css */
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: flex-start; /* Align items at the top */
+  position: absolute;
+  top: 50%;
+  left: 60%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  padding: 20px;
+  max-width: 550px;
+  width: 100%; /* Make the container responsive */
+  border-radius: 10px;
+  background-color: rgb(15, 30, 70); /* Dark background */
+  min-height: auto; /* Adjust height based on content */
+  color: white; /* Ensure the text is visible on the dark background */
+}
+
+  
+  .feedback-title {
+    color: #bab9b9; /* Darker text color */
+    margin-bottom: 20px; /* Space between title and textarea */
+    text-align: center; /* Center the title text */
+    width: 100%; /* Ensure title spans full width */
+  }
+  .feedback-title2 {
+    color: #bab9b9; /* Darker text color */
+    margin-top: 10px;
+    margin-bottom: 30px; /* Space between title and textarea */
+    text-align: center; /* Center the title text */
+    width: 100%; /* Ensure title spans full width */
+  }
+  .feedback-form {
+    width: 100%; /* Full width of the form */
+    max-width: 600px; /* Max width for larger screens */
+  }
+  
+  .feedback-textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the textarea */
+    border: 1px solid #ccc; /* Outline around the textarea */
+    border-radius: 4px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+    margin-bottom: 20px; /* Space between textarea and button */
+  }
+  
+  .feedback-button {
+    background-color:#007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 145px; /* Padding around the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    align-content: center;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 15px;
+  }
+  
+  .feedback-button:hover {
+    background-color: #034c9b; /* Darker blue on hover */
+  }
+  .contact-button {
+    background-color: #1890ff; /* Same as Ant Design button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%; /* Make buttons full width if desired */
+    transition: background-color 0.3s; 
+  }
+  .contact-button:hover {
+    background-color: #034c9b; /* Darker blue on hover */
+  }
+  .additional-button {
+    background-color: #1890ff; /* Same as Ant Design button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 100%; /* Make buttons full width if desired */
+    transition: background-color 0.3s; 
+  }
+  .additional-button:hover {
+    background-color: #034c9b; /* Darker blue on hover */
+  }
+  .separator2 {
+    width:100%;
+    border: none;
+    border-top: 2px solid #bab9b9; /* Line color matches the title text */
+    margin: 20px 0; /* Adjust margin for spacing around the line */
+  }
+  
+ 
+  

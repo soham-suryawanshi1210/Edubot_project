@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   padding: 10px;
+}
+
+
+
+.logo-icon{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background:rgb(15, 30, 70);
+}
+
+.bot-icon{
+   justify-content: start;
+   margin-left: 8px;
+   padding-right: 0px;
+}
+
+.logo p {
+margin-left: 10px;
+color: #fff;
+transition: opacity 0.3s ease;
+font-size: 28px;
+}
+
+.custom-menu {
+ height: 88rem;
+ margin: 0%;
+ display: flex;
+ flex-direction: column;
+ gap: 5px;
+ font-size: 1rem;
+ position: relative;
+ padding-top: 5px;
+ background-color: rgb(15, 30, 70);
+}
+
+
+.toggle{
+ margin-left: 15px;
+ margin-bottom: 10px;
+ background-color: white;
+}
+
+
+
+p{
+   text-decoration: none;
+}
+
+.main{
+transition: margin-left 0.3s ease; 
+overflow-x: hidden; 
+}
+
+/* Sidebar styles  */
+
+.sidebar {
+position: fixed;
+top: 0;
+bottom: 0;
+height: 100vh;
+background-color: rgb(15, 30, 70);
+transition: width 0.3s ease; 
+z-index: 1000; 
+}
+
+/* Main content styles */
+.main {
+transition: margin-left 0.3s ease;
+}
+
+.main-content{
+  padding-top: 20px;
+}
+
+
+.cs-message-input__content-editor-wrapper {
+  background-color: rgb(213, 218, 231) !important;
+}
+
+.cs-message-input__content-editor{
+  background-color: rgb(213, 218, 231) !important;
+} 
+/* message box bot */
+.cs-message--incoming .cs-message__content {
+  color: rgba(0, 0, 0, .87);
+  background-color: rgb(213, 218, 231) !important;
+  border-radius: 0 .7em;
+}
+
+/* message box user */
+.cs-message--outgoing .cs-message__content {
+  color: rgba(0, 0, 0, .87);
+  background-color: rgb(252, 232, 231) !important;
+  border-radius: 0.7em;
+}
+
+.custom-menu .submenu-scroll .ant-menu-sub {
+  max-height: 160px; 
+  overflow-y: auto;
+ }
+
+ .cs-chat-container .cs-message-input {
+    border-top: none !important;
+ }
+
+ .inputBox{
+  display: flex;
+  align-items: center;
+  border-top: 1px solid;
+  border-color:  rgb(213, 218, 231);
+ }
+
+ .cs-message-input__tools{
+  margin: 5px;
+  margin-left: 10px;
+ }
+
+ /* send button */
+ .cs-button--send {
+  color: rgb(15, 30, 70) !important;
+  background-color: transparent;
+}
+
+/* mic button */
+.cs-button--mic{
+background-color: transparent;
+border: none;
+cursor: pointer;
+margin-left: 10px; 
+color: rgb(15, 30, 70);
+}

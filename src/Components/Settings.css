@@ -1,0 +1,101 @@
+/* Container inside the Settings component */
+.settings .container {
+  display:flex;
+  position: absolute;
+  top: 50%;
+  left: 60%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center both horizontally and vertically */
+  padding: 20px;
+  max-width: 550px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(15, 30, 70);
+}
+
+/* Title */
+.settings .title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #bab9b9;
+  font-weight: 600;
+}
+
+.settings .separator {
+  border: 0;
+  border-top: 2px solid #bab9b9; /* Line color matches the title text */
+  margin: 20px 0; /* Adjust margin for spacing around the line */
+}
+
+/* Specific margin for Delete Account title */
+.settings .title-delete-account {
+  text-align: center;
+  color: #bab9b9;
+  font-weight: 600;
+  margin-top: 5px; /* Add extra space between update password and delete account */
+  margin-bottom: 10px; /* Optional: You can adjust the bottom margin as needed */
+}
+
+/* Form Layout */
+.settings .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form items horizontally */
+}
+
+.settings .input-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Make sure the input takes up full width of the container */
+}
+
+.settings .label {
+  margin-bottom: 0;
+  margin-right: 10px; /* Space between label and input */
+  color: #d6d5d5;
+  font-weight: 500;
+}
+
+.settings .input {
+  width: 80%; /* Adjust width to allow space for the button */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.settings .button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure the button spans the full width of its parent container */
+}
+
+.settings .button:hover {
+  background-color: #034c9b;
+}
+
+.settings .button-delete {
+  background-color: #f44336;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make sure delete button is the same size as update button */
+  margin-top: 15px; /* Add space between the buttons */
+}
+
+.settings .button-delete:hover {
+  background-color: #af1818; /* Darker red on hover */
+}
